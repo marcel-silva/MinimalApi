@@ -33,8 +33,6 @@ app.UseExceptionHandler(errorApp =>
 });
 
 
-app.UseHttpsRedirection();
-
 app.UseEndpointDefinitions();
 
 await app.RunAsync();
